@@ -22,7 +22,7 @@ const data = [
     icon: faInstagram,
   },
   {
-    link: 'mailto:kaijun.zhu0629@gmail.com',
+    link: 'mailto:ye.liu441@duke.edu',
     label: 'Email',
     icon: faEnvelope,
   },

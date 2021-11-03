@@ -1,7 +1,7 @@
 const routes = [
   {
     index: true,
-    label: 'Kaijun Zhu',
+    label: 'Jen Liu',
     path: '/',
   },
   {
@@ -16,17 +16,9 @@ const routes = [
     label: 'Projects',
     path: '/projects',
   },
-  {
-    label: 'Research',
-    path: '/research',
-  },
   // {
-  //   label: 'Stats',
-  //   path: '/stats',
-  // },
-  // {
-  //   label: 'Contact',
-  //   path: '/contact',
+  //   label: 'Research',
+  //   path: '/research',
   // },
 ];
 

@@ -12,14 +12,14 @@ const SideBar = () => (
         <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
       </Link>
       <header>
-        <h2>Kaijun Zhu</h2>
-        <p><a href="mailto:kaijun.zhu0629@gmail.com">kaijun.zhu0629@gmail.com</a></p>
+        <h2>Jen Liu</h2>
+        <p><a href="mailto:ye.liu441@duke.edu">ye.liu441@duke.edu</a></p>
       </header>
     </section>
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Kaijun.
+      <p>Hi, I&apos;m Jen.
         I am a software developer, a structural engineer, and a railroad researcher. <br />
         I received my M.S degree from University of Illinois at Urbana-Champaign, where I was a <a href="https://railtec.illinois.edu/member/kaijun-zhu/" target="_blank" rel="noopener noreferrer">Research Assistant </a> and was advised by <a href="https://railtec.illinois.edu/member/j-riley-edwards/" target="_blank" rel="noopener noreferrer">Dr. Riley Edward</a> and <a href="https://sc.edu/study/colleges_schools/engineering_and_computing/faculty-staff/qian_yu.php" target="_blank" rel="noopener noreferrer">Prof. Yu Qian</a>. After graduation, I became a structural / software engineer at <a href="https://www.saifulbouquet.com/" target="_blank" rel="noopener noreferrer">Saiful Bouquet</a> and <a href="https://www.walterpmoore.com/" target="_blank" rel="noopener noreferrer">Walter P Moore</a>.
       </p>
@@ -32,7 +32,7 @@ const SideBar = () => (
 
     <section id="footer">
       <ContactIcons />
-      <p className="copyright">&copy; Kaijun Zhu <Link to="/">kaijunz.com</Link>.</p>
+      <p className="copyright">&copy; Jen Liu <Link to="/">kaijunz.com</Link>.</p>
     </section>
   </section>
 );
