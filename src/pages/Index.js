@@ -13,9 +13,7 @@ const Index = () => (
           <h2 data-testid="heading"><Link to="/">WELCOME 欢迎</Link></h2>
         </div>
       </header>
-      <p> Welcome to Jen&apos;s burrow. Please feel free to read more <Link to="/about">about me</Link>,
-        my {' '}
-        <Link to="/resume">resume</Link>, or check out my {' '}
+      <p> Welcome to Jen&apos;s burrow. Please feel free to read more <Link to="/about">about me</Link>, or check out my {' '}
         <Link to="/projects">projects</Link>.
       </p>
       <div className="email-at">
