@@ -11,22 +11,22 @@ const Cell = ({ data }) => (
       </header>
       <nav className="links">
         <ul>
-          { data.linkFulltext && (
+          {data.linkFulltext && (
             <li key="fulltext">
               <a href={`${process.env.PUBLIC_URL}${data.linkFulltext}`} target="_blank" rel="noopener noreferrer">Full-text</a>
             </li>
           )}
-          { data.linkDOI && (
+          {data.linkDOI && (
             <li key="DOI">
               <a href={data.linkDOI} target="_blank" rel="noopener noreferrer">DOI.org</a>
             </li>
           )}
-          { data.linkDemo && (
+          {data.linkDemo && (
             <li key="demo">
               <a href={data.linkDemo} target="_blank" rel="noopener noreferrer">Try it out</a>
             </li>
           )}
-          { data.linkGithub && (
+          {data.linkGithub && (
             <li key="github">
               <a href={data.linkGithub} target="_blank" rel="noopener noreferrer">Github</a>
             </li>
@@ -37,7 +37,7 @@ const Cell = ({ data }) => (
         <img src={`${process.env.PUBLIC_URL}${data.image}`} alt={data.title} />
       </a>
       <div className="description">
-        <p>{data.desc}</p>
+        {data.desc.map((desc) => (<p>{desc}</p>))}
       </div>
     </article>
   </div>
