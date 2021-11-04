@@ -34,6 +34,7 @@ const data = [
   {
     title: 'Trip Planner',
     subtitle: 'A web app that make your vacation planning as simple as one click.',
+    linkDemo: 'https://xd.adobe.com/view/d3866cd9-5774-4c60-9db1-3f7f67136195-86d5/',
     image: '/images/projects/tripplanner.png',
     date: '2020-11-20',
     desc:

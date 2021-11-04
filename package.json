@@ -1,11 +1,11 @@
 {
   "name": "personal-site",
   "version": "3.0.1",
-  "homepage": "https://sofinelye.github.io/personal-site/",
+  "homepage": "http://jenliu.net",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zhukaijun0629/personal-site.git"
+    "url": "https://github.com/sofinelye/personal-site.git"
   },
   "scripts": {
     "build": "rimraf ./build && react-scripts build",
