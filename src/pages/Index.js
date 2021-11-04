@@ -14,6 +14,7 @@ const Index = () => (
         </div>
       </header>
       <p> Welcome to Jen&apos;s burrow. Please feel free to read more <Link to="/about">about me</Link>, or check out my {' '}
+        <Link to="/resume">resume</Link> and {' '}
         <Link to="/projects">projects</Link>.
       </p>
       <div className="email-at">

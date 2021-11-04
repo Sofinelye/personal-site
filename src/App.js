@@ -14,7 +14,7 @@ const Index = lazy(() => import('./pages/Index'));
 const NotFound = lazy(() => import('./pages/NotFound'));
 const Projects = lazy(() => import('./pages/Projects'));
 // const Research = lazy(() => import('./pages/Research'));
-// const Resume = lazy(() => import('./pages/Resume'));
+const Resume = lazy(() => import('./pages/Resume'));
 // const Stats = lazy(() => import('./pages/Stats'));
 
 const App = () => (
@@ -27,7 +27,7 @@ const App = () => (
         {/* <Route path="/research" component={Research} /> */}
         {/* <Route path="/stats" component={Stats} /> */}
         {/* <Route path="/contact" component={Contact} /> */}
-        {/* <Route path="/resume" component={Resume} /> */}
+        <Route path="/resume" component={Resume} />
         <Route component={NotFound} status={404} />
       </Switch>
     </Suspense>
