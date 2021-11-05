@@ -17,7 +17,7 @@ const data = [
     icon: faLinkedinIn,
   },
   {
-    link: 'https://www.instagram.com/https://www.instagram.com/jen.yeliu/',
+    link: 'https://www.instagram.com/jen.yeliu/',
     label: 'Instagram',
     icon: faInstagram,
   },
